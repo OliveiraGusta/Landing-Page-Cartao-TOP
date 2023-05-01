@@ -1,0 +1,64 @@
+/* Criação da Landing Page */
+
+O Processo de Criação será feito no GIT POD, integrado com GitHub.
+https://github.com/OliveiraGusta/Lading-Page-Cartao-TOP
+
+
+/* CORES */
+
+--azul-claro: #3C9EAB
+--azul-escuro: #10434A
+
+--cinza: #1D212
+--cinza-secundario: #F2F3F3
+
+--preto: #000
+--branco: #FFFF
+
+
+/* TEXTO */
+
+font-size: 16px;
+font-family: "Montserrat", "sans-serif";
+
+Cor do texto se fundo claro:
+var(--preto);
+opacity: 0.8;
+
+Cor do texto se fundo escuro:
+var(--branco)
+
+
+/* BOTOES */
+
+font-size: 1.125rem;
+font-weight: 600;
+border-radius: 8px;
+color: var(--branco);
+background-color: var(--azul-claro);
+
+
+/* Criação de Classes e Ids */
+
+O site será divido por partes e toda classe ou id criada nessa area, devera começar com o respectivo nome
+
+Home:
+class / id = "home-..."
+
+Funcionamento:
+class / id = "funcionamento-..."
+
+Baixe o App Top:
+class / id = "app-top-..."
+
+Funcionalidades:
+class / id = "funcionalidades:-..."
+
+Perguntas Frequentes:
+class / id = "perguntas-..."
+
+Banner-atualizações:
+class / id = "banner-atualizacoes-..."
+
+Footer: class / id = "footer-..."
+

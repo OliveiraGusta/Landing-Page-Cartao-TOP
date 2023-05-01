@@ -1,0 +1,21 @@
+:root{
+    /* CORES */
+    --azul-claro: #3C9EAB;
+    --azul-escuro: #10434A;
+    
+    --cinza: #1D212;
+    --cinza-secundario: #F2F3F3;
+    
+    --preto: #000;
+    --branco: #FFFF;
+    
+
+    /* TEXTO */
+
+    font-size: 16px;
+    font-family: "Montserrat", "sans-serif";
+}
+
+
+
+
