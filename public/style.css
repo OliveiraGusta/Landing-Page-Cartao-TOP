@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;800;900&display=swap');
 :root{
+    margin: 0;
+    padding: 0;
+
     /* CORES */
     --azul-claro: #3C9EAB;
-    --azul-escuro: #10434A;
+    --azul-escuro:#10434A;
     
-    --cinza: #1D212;
+    --cinza: #1D2122;
     --cinza-secundario: #F2F3F3;
     
     --preto: #000;
@@ -15,7 +19,234 @@
     font-size: 16px;
     font-family: "Montserrat", "sans-serif";
 }
+body{
+    margin: 0;
+    padding: 0;
+}
+/* HEADER MARANA */
+#navHeader{
+    padding: 10px 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 6px 6px gray;
+}
+
+
+#header{
+    padding: 20px;
+    background-color: var(--branco);
+}
+
+#navHeader a{
+    padding: 30px;
+    color:var(--preto);
+    text-decoration: none;
+    transition: .3s;
+}
+
+#navHeader a:hover{
+    color: var(--azul-claro);
+}
+
+#btnContato{
+    background-color: var(--azul-claro);
+    color: var(--branco);
+    padding: 1px 40px;
+    border: 2px var(--azul-claro);
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0px 2px 3px var(--azul-escuro);
+    cursor: pointer;
+}
+
+#btnContato:hover{
+    background-color: var(--branco);
+    color: var(--azul-claro);
+    transition: .3s;
+}
+
+/* FIM HEADER MARANA */
+
+
+/* HOME TALLYSSON */
+#home{
+    background-image: url(imgs/Fundo/Mapa.png);
+}
+
+#home-inicio{
+    display: flex;
+    margin-left: 12%;
+    margin-right: 15%;
+    margin-top: 2%;
+}
+
+#home-bloco-texto{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    margin-right: 15%;
+    opacity: 0.8;
+}
+
+.home-texto{
+   
+    font-size: 16px;
+    color: var(--preto);
+    opacity: 0.8;
+}
+
+#home-titulo{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+#home-lojas-app{
+    display: flex;
+}
+
+.home-loja-app{
+    margin: 4px;
+}
+/* FIM HOME TALLYSSON */
+
+/* FUNCIONAMENTO PEDRO */
+#funcionamento {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--branco);
+
+}
+.funcionamento-textos {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#funcionamento-detalhes {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 1%;
+    justify-content: center;
+}
+#funcionamento-detalhes-01 {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: right;
+}
+#funcionamento-detalhes-02 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+#funcionamento-imagem-celular {
+    height: 453px;
+    width: 293px;
+}
+#funcionamento-imagem-func01 {
+    height: 70px;
+    width: 70px;
+    border-radius: 15px;
+
+}
+#funcionamento-imagem-func02 {
+    height: 70px;
+    width: 70px;
+    border-radius: 15px;
+}
+.titulos_divisoes {
+    font-size: 50px;
+    margin: 0.1%;
+}
+.titulos_descricoes {
+    font-size: 25px;
+    margin: 1%;
+}
+.funcionamento-p {
+    text-align: center;
+}
+.funcionamento-detalhes-textos {
+    margin: 1%;
+}
+
+/* FIM FUNCIONAMENTO PEDRO */
 
 
 
 
+
+/* APP TOP GUSTAVO */
+
+#app-top{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px 300px;
+
+
+    width: auto;
+    height: 500px;
+
+    color: var(--branco);
+   
+    background-color: var(--cinza);
+
+}
+.app-top-left{
+
+}
+
+.app-top-left-titulo{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.app-top-left-texto{
+    padding-right: 220px ;
+}
+
+.app-top-left-btn{
+    padding: 50px 0;
+    width: 250px;
+    
+}
+
+#app-top-left-btn{
+    border: none; 
+    text-decoration:none;
+    font-size: 1.125rem;
+    padding: 15px;
+    
+    font-weight: 600;
+    border-radius: 8px;
+    color: var(--branco);
+    background-color: var(--azul-claro);
+
+    box-shadow: 0px 2px 3px var(--azul-escuro);
+    cursor: pointer;
+}
+
+
+#app-top-left-btn:hover{
+    background-color: var(--azul-escuro);
+    transition: .3s;
+    
+}
+
+.app-top-left-icones{
+    width: 50px;
+}
+
+
+#app-top-right-mockup{
+   height: 400px;
+   width: auto;
+}
+
+/* FIM GUSTAVO */

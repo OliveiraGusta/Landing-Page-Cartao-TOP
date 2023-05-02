@@ -9,7 +9,7 @@ https://github.com/OliveiraGusta/Lading-Page-Cartao-TOP
 --azul-claro: #3C9EAB
 --azul-escuro: #10434A
 
---cinza: #1D212
+--cinza: #1D2122
 --cinza-secundario: #F2F3F3
 
 --preto: #000
@@ -40,7 +40,10 @@ background-color: var(--azul-claro);
 
 /* Criação de Classes e Ids */
 
-O site será divido por partes e toda classe ou id criada nessa area, devera começar com o respectivo nome
+O site será divididoo por partes e toda classe ou id criada nessa area, devera começar com o respectivo nome
+
+Header:
+class / id = "header-..."
 
 Home:
 class / id = "home-..."
