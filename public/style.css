@@ -185,7 +185,7 @@ body{
 #app-top{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
     align-items: center;
     padding: 50px 300px;
 
