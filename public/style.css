@@ -148,6 +148,7 @@ main{
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+   
     justify-content: center;
     background-color: var(--branco);
 
@@ -165,6 +166,7 @@ main{
     flex-flow: row wrap;
     margin: 1%;
     justify-content: center;
+
 }
 #funcionamento-detalhes-01 {
     display: flex;
@@ -308,6 +310,7 @@ main{
 
 #funcionalidades-titulo-subtexto{
     font-size: 20px;
+    text-align: center;
     font-family: "Montserrat", "sans-serif";
     color: var(--preto);
     opacity: 0.8;
@@ -463,6 +466,9 @@ main{
     padding: 5%;
     height: 100%;
     width: 70%;
+}
+#banner-atualizacoes-image div {
+   padding-right: 50%;
 }
 
 
