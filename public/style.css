@@ -18,6 +18,7 @@
 
     font-size: 16px;
     font-family: "Montserrat", "sans-serif";
+    scroll-behavior: smooth;
 }
 body{
     margin: 0;
@@ -43,6 +44,8 @@ body{
     color:var(--preto);
     text-decoration: none;
     transition: .3s;
+   
+
 }
 
 #navHeader a:hover{
@@ -90,7 +93,7 @@ body{
 }
 
 .home-texto{
-   
+
     font-size: 16px;
     color: var(--preto);
     opacity: 0.8;
@@ -177,10 +180,8 @@ body{
 /* FIM FUNCIONAMENTO PEDRO */
 
 
-
-
-
-/* APP TOP GUSTAVO */
+/* GUSTAVO */
+/* APP TOP  */
 
 #app-top{
     display: flex;
@@ -246,4 +247,132 @@ body{
    width: auto;
 }
 
+
+
+/* PERGUNTAS FREQUENTES */
+#perguntas{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: no-wrap;
+    flex-direction: column;    
+    padding: 50px 300px;
+    width: auto;
+    
+    
+
+}
+#perguntas-caixa-titulo{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    
+}
+#perguntas-titulo{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#perguntas-sub-titulo{
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#perguntas-frequentes-caixas{
+    align-items: start;
+    width: 100%;
+
+}
+
+#perguntas-frequentes-caixas details p{
+    border-top: var(--cinza) 1px solid;
+    padding-top: 20px;
+}
+
+#perguntas-frequentes-caixas details{
+    border: var(--cinza) 1px solid;
+    border-radius: 15px;
+    padding: 2%;
+    margin-bottom: 10px;
+
+}
+
+#perguntas-frequentes-rodape{
+    display: flex;
+    flex-direction: column;    
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 2%;
+
+}
+#perguntas-frequentes-rodape a{
+  color: var(--azul-claro);
+  text-decoration: none;
+}
+
+#perguntas-frequentes-rodape a:hover{
+  font-weight: bold;
+}
+/* FIM PERGUNTAS FREQUENTES */
+
+
+/* BANNER ATUALIZACOES */
+
+
+#banner-atualizacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    color: var(--cinza-secundario);
+    margin-bottom: 50px;
+   
+}
+
+#banner-atualizacoes-image{
+    background-image: url(imgs/Fundo/Acompanhe-novas-atualizacoes.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 5%;
+    height: 100%;
+    width: 70%;
+}
+
+
+#banner-atualizacoes-titulo{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+.banner-atualizacoes-btn{
+    padding: 50px 0;
+    width: 250px;
+    
+}
+
+#banner-atualizacoes-btn{
+    border: none; 
+    text-decoration:none;
+    font-size: 1.125rem;
+    padding: 15px;
+    
+    font-weight: 600;
+    border-radius: 8px;
+    color: var(--branco);
+    background-color: var(--preto);
+
+    box-shadow: 0px 2px 3px var(--cinza);
+    cursor: pointer;
+}
+
+#banner-atualizacoes-btn:hover{
+    background-color: var(--cinza);
+    transition: .3s;
+    
+}
+
 /* FIM GUSTAVO */
+
