@@ -12,6 +12,8 @@
     
     --preto: #000;
     --branco: #FFFF;
+
+    scroll-behavior: smooth;
     
 
     /* TEXTO */
@@ -72,6 +74,7 @@ body{
 /* HOME TALLYSSON */
 #home{
     background-image: url(imgs/Fundo/Mapa.png);
+    margin-bottom: 5%;
 }
 
 #home-inicio{
@@ -90,7 +93,6 @@ body{
 }
 
 .home-texto{
-   
     font-size: 16px;
     color: var(--preto);
     opacity: 0.8;
@@ -107,6 +109,10 @@ body{
 
 .home-loja-app{
     margin: 4px;
+}
+
+#home-imagem{
+    width: 293px;
 }
 /* FIM HOME TALLYSSON */
 
@@ -247,3 +253,95 @@ body{
 }
 
 /* FIM GUSTAVO */
+
+
+/* FUNCIONALIDADES TALLYSSON */
+
+
+#funcionalidades{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6%;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+#funcionalidades-titulo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: "Montserrat", "sans-serif";
+    color: var(--preto);
+    opacity: 0.8;
+    margin-bottom: -15px;
+}
+
+#funcionalidades-titulo-subtexto{
+    font-size: 20px;
+    font-family: "Montserrat", "sans-serif";
+    color: var(--preto);
+    opacity: 0.8;
+}
+
+#funcionalidades-bloco{
+    display: flex;
+    margin-top: 5%;
+}
+
+#funcionalidades-bloco-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10%;
+}
+
+#funcionalidades-imagem{
+    width: 350px;
+}
+
+#funcionalidades-bloco-textos{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.funcionalidades-bloco-icones{
+    width: 85px;
+    border-radius: 15%;
+    margin-bottom: -15px;
+}
+
+.funcionalidades-subtiulos{
+    font-size: 23px;
+    font-family: "Montserrat", "sans-serif";
+    color: var(--preto);
+    opacity: 0.8;
+}
+
+
+.funcionalidades-texto{
+    font-size: 16px;
+    font-family: "Montserrat", "sans-serif";
+    color: var(--preto);
+    opacity: 0.8;
+}
+
+#funcionalidades-bloco-textos-linha1{
+    margin-bottom: 5%;
+    display: flex;
+}
+
+#funcionalidades-bloco-textos-linha2{
+    display: flex;
+    margin-bottom: 5%;
+}
+
+#funcionalidades-bloco-textos-coluna1{
+    margin-right: 5%;
+}
+
+#funcionalidades-bloco-textos-coluna2{
+    margin-right: 5%;
+}
