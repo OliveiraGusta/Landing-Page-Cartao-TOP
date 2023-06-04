@@ -26,18 +26,28 @@ body{
     margin: 0;
     padding: 0;
 }
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #FFFF;
+}
+
 /* HEADER MARANA */
 #navHeader{
-    padding: 10px 100px;
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     box-shadow: 0px 6px 6px gray;
+    padding: 30px;
 }
 
 
 #header{
-    padding: 20px;
     background-color: var(--branco);
 }
 
@@ -46,8 +56,6 @@ body{
     color:var(--preto);
     text-decoration: none;
     transition: .3s;
-   
-
 }
 
 #navHeader a:hover{
@@ -55,17 +63,21 @@ body{
 }
 
 #btnContato{
+    padding: 0 !important;
+}
+
+#btnContato button{
     background-color: var(--azul-claro);
     color: var(--branco);
-    padding: 1px 40px;
-    border: 2px var(--azul-claro);
+    border: 1px var(--azul-claro);
     border-radius: 10px;
+    padding: 15px 40px;
     font-weight: bold;
     box-shadow: 0px 2px 3px var(--azul-escuro);
     cursor: pointer;
 }
 
-#btnContato:hover{
+#btnContato button:hover{
     background-color: var(--branco);
     color: var(--azul-claro);
     transition: .3s;
@@ -73,6 +85,11 @@ body{
 
 /* FIM HEADER MARANA */
 
+
+main{
+    position: relative;
+    top: 100px;
+}
 
 /* HOME TALLYSSON */
 #home{
@@ -110,6 +127,11 @@ body{
 #home-lojas-app{
     display: flex;
 }
+#home-lojas-app img:hover{
+        transition: 1s all;
+        transform: scale(1.1);
+}
+
 
 .home-loja-app{
     margin: 4px;
@@ -118,6 +140,7 @@ body{
 #home-imagem{
     width: 293px;
 }
+
 /* FIM HOME TALLYSSON */
 
 /* FUNCIONAMENTO PEDRO */
@@ -226,7 +249,7 @@ body{
     border: none; 
     text-decoration:none;
     font-size: 1.125rem;
-    padding: 15px;
+    padding: 15px 30px;
     
     font-weight: 600;
     border-radius: 8px;
@@ -247,6 +270,10 @@ body{
 .app-top-left-icones{
     width: 50px;
 }
+.app-top-left-icones:hover {
+        transition: 1s all;
+        transform: scale(1.1);
+}
 
 
 #app-top-right-mockup{
@@ -256,7 +283,101 @@ body{
 
 
 
+/* FUNCIONALIDADES TALLYSSON */
+
+
+#funcionalidades{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6%;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+#funcionalidades-titulo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: "Montserrat", "sans-serif";
+    color: var(--preto);
+    opacity: 0.8;
+    margin-bottom: -15px;
+}
+
+#funcionalidades-titulo-subtexto{
+    font-size: 20px;
+    font-family: "Montserrat", "sans-serif";
+    color: var(--preto);
+    opacity: 0.8;
+}
+
+#funcionalidades-bloco{
+    display: flex;
+    margin-top: 5%;
+}
+
+#funcionalidades-bloco-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10%;
+}
+
+#funcionalidades-imagem{
+    width: 350px;
+}
+
+#funcionalidades-bloco-textos{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.funcionalidades-bloco-icones{
+    width: 85px;
+    border-radius: 15%;
+    margin-bottom: -15px;
+}
+
+.funcionalidades-subtiulos{
+    font-size: 23px;
+    font-family: "Montserrat", "sans-serif";
+    color: var(--preto);
+    opacity: 0.8;
+}
+
+
+.funcionalidades-texto{
+    font-size: 16px;
+    font-family: "Montserrat", "sans-serif";
+    color: var(--preto);
+    opacity: 0.8;
+}
+
+#funcionalidades-bloco-textos-linha1{
+    margin-bottom: 5%;
+    display: flex;
+}
+
+#funcionalidades-bloco-textos-linha2{
+    display: flex;
+    margin-bottom: 5%;
+}
+
+#funcionalidades-bloco-textos-coluna1{
+    margin-right: 5%;
+}
+
+#funcionalidades-bloco-textos-coluna2{
+    margin-right: 5%;
+}
+
+/* FIM FUNCIONALIDADES TALLYSSON */
+
 /* PERGUNTAS FREQUENTES */
+
 #perguntas{
     display: flex;
     justify-content: space-between;
@@ -265,8 +386,6 @@ body{
     padding: 50px 300px;
     width: auto;
     
-    
-
 }
 #perguntas-caixa-titulo{
     display: flex;
@@ -364,114 +483,46 @@ body{
     border: none; 
     text-decoration:none;
     font-size: 1.125rem;
-    padding: 15px;
+    padding: 15px 35px;
     
     font-weight: 600;
     border-radius: 8px;
     color: var(--branco);
-    background-color: var(--preto);
+    background-color: var(--cinza);
 
-    box-shadow: 0px 2px 3px var(--cinza);
+    box-shadow: 0px 2px 3px var(--preto);
     cursor: pointer;
 }
 
 #banner-atualizacoes-btn:hover{
-    background-color: var(--cinza);
+    background-color: var(--preto);
     transition: .3s;
     
 }
 
 /* FIM GUSTAVO */
 
-
-/* FUNCIONALIDADES TALLYSSON */
-
-
-#funcionalidades{
+footer {
+    position: relative;
+    margin-top: 200px;
     display: flex;
+    align-items: center;
     flex-direction: column;
-    margin-top: 6%;
-    margin-left: 12%;
-    margin-right: 12%;
+    background-color: var(--cinza);
+    padding: 50px;
 }
 
-#funcionalidades-titulo{
-    display: flex;
+#footer-lojas-app{
+    margin-bottom: 20px;
+}
+#footer-lojas-app a img:hover{
+    transition: 1s all;
+    transform: scale(1.1);
+}
+#footer-direitos{
+    border-top: var(--cinza-secundario) 1px solid;
+    color: var(--cinza-secundario);
+    width: 50%;
     text-align: center;
-    align-items: center;
-    justify-content: center;
-    font-size: 40px;
-    font-family: "Montserrat", "sans-serif";
-    color: var(--preto);
-    opacity: 0.8;
-    margin-bottom: -15px;
+    padding-top: 20px ;
 }
-
-#funcionalidades-titulo-subtexto{
-    font-size: 20px;
-    font-family: "Montserrat", "sans-serif";
-    color: var(--preto);
-    opacity: 0.8;
-}
-
-#funcionalidades-bloco{
-    display: flex;
-    margin-top: 5%;
-}
-
-#funcionalidades-bloco-imagem{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 10%;
-}
-
-#funcionalidades-imagem{
-    width: 350px;
-}
-
-#funcionalidades-bloco-textos{
-    display: flex;
-    flex-direction: column;
-}
-
-
-.funcionalidades-bloco-icones{
-    width: 85px;
-    border-radius: 15%;
-    margin-bottom: -15px;
-}
-
-.funcionalidades-subtiulos{
-    font-size: 23px;
-    font-family: "Montserrat", "sans-serif";
-    color: var(--preto);
-    opacity: 0.8;
-}
-
-
-.funcionalidades-texto{
-    font-size: 16px;
-    font-family: "Montserrat", "sans-serif";
-    color: var(--preto);
-    opacity: 0.8;
-}
-
-#funcionalidades-bloco-textos-linha1{
-    margin-bottom: 5%;
-    display: flex;
-}
-
-#funcionalidades-bloco-textos-linha2{
-    display: flex;
-    margin-bottom: 5%;
-}
-
-#funcionalidades-bloco-textos-coluna1{
-    margin-right: 5%;
-}
-
-#funcionalidades-bloco-textos-coluna2{
-    margin-right: 5%;
-}
-
